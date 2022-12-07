@@ -1,1 +1,1 @@
-# Pradeep-s-Portfolio.github.io
+# Pradeep-Portfolio.github.io
