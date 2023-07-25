@@ -1,0 +1,205 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep's Portfolio</title>
+    <link rel="icon" type="images/x-icon" href="images/Light Grey Typography Initial MP Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0967be469.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Light Grey Typography Initial MP Logo(1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#platforms">Platforms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Engineering Student</p>
+                <h1>Hi,I'm <span>Pradeep</span> M</h1>
+            </div>
+        </div>
+    </div>
+    <!-----about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20221204_110215_702-removebg-preview.png" 
+                    style="object-fit:cover;
+                    object-position: right;
+                    width:400px;
+                    height:500px;
+                    border: solid 1px #CCC">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me<br><br></h1>
+                    <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internships')">Internships</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ol>
+                            <li><span>１. JAVA</span></li>
+                            <li><span>２. C</span></li>
+                            <li><span>３. Python</span></li>
+                            <li><span>４. MySQL</span></li>
+                            <li><span>５. HTML</span></li>
+                            <li><span>６. CSS</span></li>
+                            <li><span>７. JAVASCRIPT</span></li>
+                        </ol>
+                    </div>
+                    <div class="tab-contents" id="internships">
+                        <ol>
+                            <li><span>１. KAASHIV INFOTECH</span><br> Domain:App Development<br>Description:<br>i. Learned android app development & app creation using Kotlin language.</li>
+                        </ol>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ol>
+                            <li><span>１. Bank Abinci</span><br>Domain : Web Technology<br>Description:<br>i. Created an website that user can donate excess food to the charity and Non-Governmental Organizations.</li><br>
+                            <li><span>２. Api Fetch</span><br>Domain : Web Technology<br>Description:<br>i. Built an website that stores user credentials and fetch the details from random upi and display the result.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------details-------------->
+<div class="details">
+    <div class="container">
+        <h1 class="sub-title">Educational Details</h1>
+        <div class="details-list">
+            <div>
+                <i class="fa-solid fa-calendar-check"></i>
+                <h2>2017-2018</h2><br>
+                <p>John Bosco Matriculation Higher Secondary School.<br>SSLC - 90.00%</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-calendar-check"></i>
+                <h2>2019-2020</h2><br>
+                <p>John Bosco Matriculation Higher Secondary School.<br>HSC - 78.67%</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-calendar-check"></i>
+                <h2>2020-2024</h2><br>
+                <p>Sri Eshwar College Of Engineering.<br>CGPA - 8.91</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Portfolio--------->
+<div id="platforms">
+    <div class="container">
+        <h1 class="sub-title">Global Platforms</h1>
+        <div class="platforms-list">
+            <div class="platforms">
+                <img src="images/LeetCode 1.png">
+                <div class="layer">
+                    <h3>Leetcode</h3>
+                    <p>It's a great platform for DSA Problems and I have solved 100+ problems in leetcode.</p>
+                    <a href="https://leetcode.com/Pradeep_M_77/"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="platforms">
+                <img src="images/codechef.jpg">
+                <div class="layer">
+                    <h3>Codechef</h3>
+                    <p>It's a great platform for Math related problems and I have attended many contests to develop my skills.</p>
+                    <a href="https://www.codechef.com/users/pradeep_m_15"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="platforms">
+                <img src="images/hackerrank.png">
+                <div class="layer">
+                    <h3>Hackerrank</h3>
+                    <p>I have solved problems in java,c & sql with average 1-4 stars in hackerrank.</p>
+                    <a href="https://www.hackerrank.com/pradeep_mcse2020"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Information</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> marimuthupradeep07@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> 6369573109</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/pradeepoffl_77?igshid=MTg0ZDhmNDA="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pradeep-m-705b45210"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Pradeep-M-15"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/PRADEEP's RESUME (3).pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter your Name" required>
+                    <input type="email" name="Email" placeholder="Enter your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyrights © 2023 Pradeep All Rights Reserved.</p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxXR5L33RThxnb1tvQdIxkL09DYTNivkMIKovW7Cu_2mLY5ZL5UnLfFgtdcp1FtxV7v/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
